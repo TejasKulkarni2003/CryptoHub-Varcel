@@ -5,7 +5,7 @@ import { Button, HStack } from '@chakra-ui/react';
 const Header = () => {
   return (
     <>
-        <HStack p={"4"} shadow={"base"} bgColor={"blackAlpha.900"} justifyContent={'space-evenly'}>
+        <HStack p={"4"} shadow={"base"} bgColor={"blackAlpha.900"} justifyContent={'space-evenly'} style={{background: "linear-gradient(456360, 416085);"}}>
             <Button variant={"unstyled"} color={"white"}>
                 <Link to="/">Home</Link>
             </Button>
